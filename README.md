@@ -1,5 +1,5 @@
 
-MINI PROJECT FOR INF01
+MINI PROJECT FOR INF01 / SWE
 by Hausmann, Neubauer, Ruckhofer
 
 
@@ -23,5 +23,6 @@ Preadiposity 25 - < 30
 Adiposity I 30 - < 35 
 Adiposity II 35 - < 40
 Obesity III ≥ 40
+
 
 
