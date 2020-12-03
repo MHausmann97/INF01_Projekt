@@ -19,10 +19,10 @@ public class INF01_Fitnesstracker {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
          
-        System.out.println("Willkommen beim BMI Rechner");
-        System.out.println("Bitte gib dein Gewicht in KG ein:");
+        System.out.println("Welcome to the BMI Calculator!");
+        System.out.println("Please provide your weight in kg:");
         double gewicht = myScanner.nextDouble();
-        System.out.println("Bitte gib deine Größe in Meter an (Bsp 1,80):");
+        System.out.println("Please provide your height(Bsp 1,80):");
         double groesse = myScanner.nextDouble();
          
         double bmi = bmiRechner(groesse, gewicht);
@@ -30,25 +30,25 @@ public class INF01_Fitnesstracker {
     }
     //Ausgabe des BMI und Auswahl des passenden Namen.
     private static void ausgabe(double bmi) {       
-        System.out.print("Dein BMI beträgt: " + bmi + " ");
+        System.out.print("Youre BMI is: " + bmi + " ");
         if(bmi <16) {
-            System.out.println("Starkes Untergewicht!");
+            System.out.println("Severely underweight!");
         }else if(bmi>=16 && bmi<17) {
-            System.out.println("Mäßiges Untergewicht.");
+            System.out.println("Moderate underweight.");
         }else if(bmi>=17 && bmi<18.5) {
-            System.out.println("Leichtes Untergewicht.");
+            System.out.println("slightly  underweight.");
         }else if(bmi>=18.5 && bmi<25) {
-            System.out.println("Normalgewicht!");
+            System.out.println("normal weight!");
         }else if(bmi>=25 && bmi<30) {
-            System.out.println("Präadipositas.");
+            System.out.println("Pre-obesity.");
         }else if(bmi>=30 && bmi<35) {
-            System.out.println("Adipositas Grad I.");
+            System.out.println("Adipositas Degree I.");
         }else if(bmi>=35 && bmi<40) {
-            System.out.println("Adipositas Grad II");
+            System.out.println("Adipositas Degree II");
         }else if(bmi>= 40) {
-            System.out.println("Adipositas Grad III");
+            System.out.println("Adipositas Degree III");
         }else {
-            System.out.println("Bitte überprüfe deine Eingabe!");
+            System.out.println("Please check your input!");
         }
 }
  
