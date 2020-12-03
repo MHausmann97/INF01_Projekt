@@ -19,6 +19,7 @@ public class INF01_Fitnesstracker {
         
         
         System.out.println("Test");
+        System.out.println("Test2");
     }
     
 }
