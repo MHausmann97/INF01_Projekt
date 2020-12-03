@@ -19,10 +19,10 @@ public class INF01_Fitnesstracker {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
          
-        System.out.println("Welcome to the BMI Calculator!");
-        System.out.println("Please provide your weight in kg:");
+        System.out.println("Willkommen beim BMI Rechner");
+        System.out.println("Bitte gib dein Gewicht in KG ein:");
         double gewicht = myScanner.nextDouble();
-        System.out.println("Please provide your height(Bsp 1,80):");
+        System.out.println("Bitte gib deine Größe in Meter an (Bsp 1,80):");
         double groesse = myScanner.nextDouble();
          
         double bmi = bmiRechner(groesse, gewicht);
@@ -30,26 +30,30 @@ public class INF01_Fitnesstracker {
     }
     //Ausgabe des BMI und Auswahl des passenden Namen.
     private static void ausgabe(double bmi) {       
-        System.out.print("Youre BMI is: " + bmi + " ");
+        System.out.print("Dein BMI beträgt: " + bmi + " ");
         if(bmi <16) {
-            System.out.println("Severely underweight!");
+            System.out.println("Starkes Untergewicht!");
         }else if(bmi>=16 && bmi<17) {
-            System.out.println("Moderate underweight.");
+            System.out.println("Mäßiges Untergewicht.");
         }else if(bmi>=17 && bmi<18.5) {
-            System.out.println("slightly  underweight.");
+            System.out.println("Leichtes Untergewicht.");
         }else if(bmi>=18.5 && bmi<25) {
-            System.out.println("normal weight!");
+            System.out.println("Normalgewicht!");
         }else if(bmi>=25 && bmi<30) {
-            System.out.println("Pre-obesity.");
+            System.out.println("Präadipositas.");
         }else if(bmi>=30 && bmi<35) {
-            System.out.println("Adipositas Degree I.");
+            System.out.println("Adipositas Grad I.");
         }else if(bmi>=35 && bmi<40) {
-            System.out.println("Adipositas Degree II");
+            System.out.println("Adipositas Grad II");
         }else if(bmi>= 40) {
-            System.out.println("Adipositas Degree III");
+            System.out.println("Adipositas Grad III");
         }else {
-            System.out.println("Please check your input!");
+            System.out.println("Bitte überprüfe deine Eingabe!");
+
         }
+        System.out.println("Der BMI ist nach wie vor eine häufig genutzte Messgröße, um das Körpergewicht zu beurteilen. \n Es werden bei der Berechnung einige Faktoren nicht berücksichtigt werden.\n Die Statur, das Geschlecht und das Verhältnis von Fett- und Muskelmasse spielen beim BMI keine Rolle. ");
+        
+        
 }
  
     private static double bmiRechner(double groesse, double gewicht) {
