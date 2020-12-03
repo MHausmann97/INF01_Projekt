@@ -49,8 +49,9 @@ public class INF01_Fitnesstracker {
             System.out.println("Adipositas Grad III");
         }else {
             System.out.println("Bitte überprüfe deine Eingabe!");
-
         }
+
+        
         System.out.println("Der BMI ist nach wie vor eine häufig genutzte Messgröße, um das Körpergewicht zu beurteilen. \n Es werden bei der Berechnung einige Faktoren nicht berücksichtigt werden.\n Die Statur, das Geschlecht und das Verhältnis von Fett- und Muskelmasse spielen beim BMI keine Rolle. ");
         
         
