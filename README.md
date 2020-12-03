@@ -1,6 +1,8 @@
 
-#MINI PROJECT FOR INF01
+MINI PROJECT FOR INF01
 by Hausmann, Neubauer, Ruckhofer
+
+
 
 A fitnesstool to assess the BMI. 
 
