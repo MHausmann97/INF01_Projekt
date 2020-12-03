@@ -19,10 +19,10 @@ public class INF01_Fitnesstracker {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
          
-        System.out.println("Welcome to the BMI Calculator!");
-        System.out.println("Please provide your weight in kg:");
+        System.out.println("Willkommen beim BMI Rechner!");
+        System.out.println("Bitte gib dein Gewicht in KG ein:");
         double gewicht = myScanner.nextDouble();
-        System.out.println("Please provide your height(Bsp 1,80):");
+        System.out.println("Bitte gib deine Größe in Meter an(Bsp 1,80):");
         double groesse = myScanner.nextDouble();
          
         double bmi = bmiRechner(groesse, gewicht);
