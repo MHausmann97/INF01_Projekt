@@ -32,23 +32,23 @@ public class INF01_Fitnesstracker {
     private static void ausgabe(double bmi) {       
         System.out.print("Youre BMI is: " + bmi + " ");
         if(bmi <16) {
-            System.out.println("Severely underweight!");
+            System.out.println("Starkes Untergewicht!");
         }else if(bmi>=16 && bmi<17) {
-            System.out.println("Moderate underweight.");
+            System.out.println("Mäßiges Untergewicht.");
         }else if(bmi>=17 && bmi<18.5) {
-            System.out.println("slightly  underweight.");
+            System.out.println("Leichtes Untergewicht.");
         }else if(bmi>=18.5 && bmi<25) {
-            System.out.println("normal weight!");
+            System.out.println("Normalgewicht!");
         }else if(bmi>=25 && bmi<30) {
-            System.out.println("Pre-obesity.");
+            System.out.println("Präadipositas.");
         }else if(bmi>=30 && bmi<35) {
-            System.out.println("Adipositas Degree I.");
+            System.out.println("Adipositas Grad I.");
         }else if(bmi>=35 && bmi<40) {
-            System.out.println("Adipositas Degree II");
+            System.out.println("Adipositas Grad II");
         }else if(bmi>= 40) {
-            System.out.println("Adipositas Degree III");
+            System.out.println("Adipositas Grad III");
         }else {
-            System.out.println("Please check your input!");
+            System.out.println("Bitte überprüfe deine Eingabe!");
         }
 }
  
