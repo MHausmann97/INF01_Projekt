@@ -53,10 +53,10 @@ public class INF01_Fitnesstracker {
 
         
         System.out.println("Der BMI ist nach wie vor eine häufig genutzte Messgröße, um das Körpergewicht zu beurteilen. \n Es werden bei der Berechnung einige Faktoren nicht berücksichtigt werden.\n Die Statur, das Geschlecht und das Verhältnis von Fett- und Muskelmasse spielen beim BMI keine Rolle. ");
+
+             System.out.println("Bitte konsultieren Sie Ihren Arzt");
         
-        
-}
- 
+    }
     private static double bmiRechner(double groesse, double gewicht) {
         //BMI ausrechnen kg/m**2
         double bmi = gewicht / (groesse*groesse);
